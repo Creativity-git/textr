@@ -1,4 +1,4 @@
-//psvm(args)
+//public static void main(args)
 public static void main(String[] args)' is the entry point for any Java program.
 It's where the Java Virtual Machine (JVM) starts executing the program.
 Here's 
@@ -23,6 +23,5 @@ EX :
 public String Name() { 
 return "Hello";
 }
-//2. spvm(args)
-//psm(args)
+
 

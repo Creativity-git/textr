@@ -1,0 +1,26 @@
+public class NestedIf
+{
+    public static void main(String[] args) 
+{
+        int age = 25;
+        String gender = "female";
+
+        if (age >= 18) {
+            System.out.println("You are an adult.");
+
+            if (gender.equals("male")) {
+                System.out.println("You are a male adult.");
+            } else if (gender.equals("female")) {
+                System.out.println("You are a female adult.");
+            } else {
+                System.out.println("You are an adult of unspecified gender.");
+            }
+        } else {
+            System.out.println("You are a minor.");
+        }
+    }
+}
+
+Output
+You are an adult.
+You are a female adult.

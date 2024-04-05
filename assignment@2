@@ -1,0 +1,23 @@
+public class NestedIf {
+    public static void main(String[] args) {
+        int a = 33;
+        int b = 40;
+
+        if (a > 0) {
+            System.out.println("a is a positive number.");
+
+            if (b > 0) {
+                System.out.println("b is also a positive number.");
+            } else if (b < 0) {
+                System.out.println("b is a negative number.");
+            } else {
+                System.out.println("b is zero.");
+            }
+        } else if (a < 0) {
+            System.out.println("a is a negative number.");
+        } else {
+            System.out.println("a is zero.");
+        }
+ouput
+a is a positive number.
+b is also a positive number.

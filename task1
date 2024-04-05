@@ -1,0 +1,29 @@
+
+Bank
+            Attributes
+            Bank name
+            Bank Branch
+            Bank Address
+            Account
+            Balance
+        
+        Behaviours
+            AccountNumber
+            Balance
+            trasaction 
+            Account open process
+            Account close process
+            deposit
+            withdraw
+
+Universitys
+            Attributes
+            University name
+            University code 
+            University Address
+            AdmissionNumber
+        
+        Behaviours
+            Admission process
+            Course
+            study

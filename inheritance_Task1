@@ -1,0 +1,103 @@
+Inheritance Tasks:
+=================
+1.what if my child class has lesser access modifier? // private void walk()
+
+If a child class has a lesser access modifier than its parent class, it means that the visibility of some of its members may be more restricted in the child class compared to the parent class. Here's what happens in different scenarios:
+
+If the parent class member is public and the child class member is private or protected:
+
+The child class member is more restricted in visibility compared to the parent class member. It's essentially hiding the member from anything outside of the class itself and its subclasses.
+
+2. Calc, scientific calc, programmer calc - implement complete inheritance(overriding,uniq methd...)
+
+Calculators (Parent Class)
+
+     Addition() {}
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Percentage() {}
+
+Scientific (Child Class)
+     Addition() {} 
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Trigonometry() {} //Unique Method
+     Function() {} //Unique Method 
+//difference between a basic calculator and a scientific calculator? A basic calculator can perform simple arithmetic operations, whereas a scientific calculator is designed to perform complex mathematical functions, including logarithms, trigonometry, and calculus.
+
+programmer  (Child Class)
+
+     Addition() {}
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Bitwise() {} //Unique Method
+     Bitshift() {} //Unique Method
+     Hex(){} //Unique Method
+     ROR(){} //Unique Method
+     
+3. Radio, Tv, Dvd Player - identify the Apt parent class and implement inheritance
+
+Electronic Products (Parent class)
+
+    Audio() {}
+    Play() {}
+    Stop() {}
+
+Radio (Child class)
+    
+    Audio() {}
+    Recording() {}
+    Play() {}
+    Stop() {}
+    Audio_disc() {} // unique method
+
+TV  (Child class)
+    Audio() {}
+    Play() {}
+    Stop() {}
+    Video() {} // unique method
+    Video_Recording() {} //unique method
+    mike(){} //unique method
+
+DVD Player (Child class)
+    
+    Audio() {}
+    Play() {}
+    Stop() {}
+    Video_Disc() {} // unique method
+    
+
+4. Admin, Manager, Finance - idetify the parent class and implement inheritance
+
+Department (Parent class)
+     Id(){}
+     login() {}
+     logout() {}  
+     campany() {}
+
+Manager  (child class)
+     Id(){}
+     login() {} 
+     logout() {} 
+     campany() {}
+     employee_Records() {} // Unique method
+     
+Finance  (child class)
+     Id(){}
+     login() {}
+     logout() {}
+     campany() {}
+     accounts() {}// unique method
+     salary() {} // unique method
+
+Hr (child class)
+     Id(){}
+     login() {}
+     logout() {}
+     campany() {}
+     accounts() {}
+     salary() {} 
+     recruitment(){} // unique method

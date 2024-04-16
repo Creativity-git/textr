@@ -1,0 +1,37 @@
+public class Primitives {
+    public static void main(String[] args) {
+        // Declaration and initialization of primitive variables
+        int age = 25;
+        double height = 5.9;
+        char gender = 'M';
+        boolean isStudent = true;
+
+        // Printing out the values of the variables
+        System.out.println("Age: " + age);
+        System.out.println("Height: " + height);
+        System.out.println("Gender: " + gender);
+        System.out.println("Is student: " + isStudent);
+
+        // Modifying the variables
+        age = 30;
+        height = 6.0;
+        gender = 'F';
+        isStudent = false;
+
+        // Printing out the modified values
+        System.out.println("Modified age: " + age);
+        System.out.println("Modified height: " + height);
+        System.out.println("Modified gender: " + gender);
+        System.out.println("Modified student status: " + isStudent);
+    }
+}
+output
+
+Age: 25
+Height: 5.9
+Gender: M
+Is student: true
+Modified age: 30
+Modified height: 6.0
+Modified gender: F
+Modified student status: false
